@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'android';
+    src: url('fontes/idroid.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+
+}
+
+.principal {
+    text-align: center;
+    color: white;
+    font-family: 'bebas';
+ }
+
+ .destaque {
+    color: #136736;
+    font-size: medium;
+    font-style: normal;
+    text-decoration: none;
+    
+}
+
+.fonte {
+    font-family: 'android';
+    color: #40775a;
+    background-image:linear-gradient(to right, #67c7949d, #e4f8eeb0);
+    background-attachment: fixed;
+    border-radius: 2px;
+    margin-left: 10px;
+    text-align: left;
+    font-size: 2em;
+     
+}
+
+
+body {
+    
+    font-family: 'bebas';
+    margin: 0px;
+    background-image: linear-gradient(to bottom , #e9e8da80 , #cacaacda);
+    
+    
+    
+   
+}
+
+header {
+    /*essa tag faz o header ficar fixo no top da tela
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    z-index: 10;*/
+    background-image: linear-gradient(to top, #022711, #136736, #2dac64);
+    padding: 1%;
+   
+
+    
+    
+}
+
+
+
+nav > a {
+    text-decoration: none;
+    color: rgb(129, 173, 129);
+    margin-inline: 1%;
+    padding-bottom: 5%;
+}
+
+nav > a:hover {
+    
+    background-color: #166f41;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+main {
+    
+   /* faz parte da configuração para deixar o header fixo no top 
+    position: relative;
+    top: 185px; */
+    background-color: white; 
+    border-radius: 5px;
+    margin: 0% 10% ;
+    padding: 1%;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.555);
+    
+    
+    
+}
+
+
+#segundotitulo {
+    padding: 10px;
+    font-size: xx-large;
+    font-family: 'android';
+    color: #40775a;
+}
+
+#extra {
+    background-color: #2dac6479;
+    padding: 1%;
+    border-radius: 5px;
+    
+}
+
+p {
+    text-indent: 30px;
+    text-justify: auto;
+}
+
+
+picture {
+    width: 200%;
+    height: auto;
+}
+picture > img {
+    width: 100%;
+    height: auto;
+}
+
+figure {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;   
+    text-align: center;
+}
+figure > img {
+    width: auto;
+    height: auto; 
+    
+}
+
+.video {
+    background-color: #022711;
+    padding:20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+footer {
+    background-color: #022711;
+    position: relative;
+    margin-top: 20px;
+    padding: 0.3%;
+    text-align: center;
+}
+
